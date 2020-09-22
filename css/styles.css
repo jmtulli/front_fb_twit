@@ -33,7 +33,7 @@ header {
 }
 
 .divform {
-    padding: 10px 15px;
+    padding: 10px 0;
 }
 
 .divbck {
@@ -63,14 +63,9 @@ form input {
     background: transparent;
 }
 
-.botao {
-    box-sizing: border-box;
-}
-
 #submit {
     outline: none;
-    box-sizing: border-box;
-    margin: 10px;
+    margin: 10px 0;
     border: 1px solid white;
     padding: 0 30px;
     font-weight: bold;
@@ -88,11 +83,15 @@ form input {
 #footer {
     margin-top: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #forget, #register {
     color: rgb(27, 149, 224);
     text-decoration: none;
+    margin: 0;
 }
 
 #forget:hover, #register:hover {
@@ -101,6 +100,6 @@ form input {
 
 #ponto {
     color: rgb(101, 119, 134);
-    padding: 0 5px;
-    text-align: center;
+    padding-bottom: 6px;
+    margin: 0 10px;
 }
